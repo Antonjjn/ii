@@ -1,0 +1,596 @@
+2023-09-09 15:11:30,765 DEBUG :: Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2023-09-09 15:11:31,872 DEBUG :: https://testnet.binancefuture.com:443 "GET /fapi/v1/exchangeInfo HTTP/1.1" 200 None
+2023-09-09 15:11:31,885 DEBUG :: Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2023-09-09 15:11:32,729 DEBUG :: https://testnet.binancefuture.com:443 "GET /fapi/v1/account?timestamp=1694265091882&signature=d7d5c68e7053b09156b45754dbdb97663df9f0f4f6a4f57634938e2f68f95cb0 HTTP/1.1" 401 46
+2023-09-09 15:11:32,731 ERROR :: Error while making GET request to /fapi/v1/account: {'code': -2014, 'msg': 'API-key format invalid.'} (error code 401)
+2023-09-09 15:11:32,734 INFO :: Binance Futures Client successfully initialized
+2023-09-09 15:11:32,768 DEBUG :: Starting new HTTPS connection (1): testnet.bitmex.com:443
+2023-09-09 15:11:32,937 DEBUG :: https://testnet.bitmex.com:443 "GET /api/v1/instrument/active HTTP/1.1" 400 59
+2023-09-09 15:11:32,938 ERROR :: Error while making GET request to /api/v1/instrument/active: {'error': {'message': 'Missing API key.', 'name': 'HTTPError'}} (error code 400)
+2023-09-09 15:11:32,943 DEBUG :: Starting new HTTPS connection (1): testnet.bitmex.com:443
+2023-09-09 15:11:33,067 DEBUG :: https://testnet.bitmex.com:443 "GET /api/v1/user/margin?currency=all HTTP/1.1" 400 59
+2023-09-09 15:11:33,068 ERROR :: Error while making GET request to /api/v1/user/margin: {'error': {'message': 'Missing API key.', 'name': 'HTTPError'}} (error code 400)
+2023-09-09 15:11:33,069 INFO :: Bitmex Client successfully initialized
+2023-09-09 15:27:51,182 DEBUG :: Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2023-09-09 15:27:52,303 DEBUG :: https://testnet.binancefuture.com:443 "GET /fapi/v1/exchangeInfo HTTP/1.1" 200 None
+2023-09-09 15:27:52,317 DEBUG :: Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2023-09-09 15:27:53,160 DEBUG :: https://testnet.binancefuture.com:443 "GET /fapi/v1/account?timestamp=1694266072314&signature=f4c39dd83647b6d65369e4c4026d71cf1935c700f41ebd892c84aed1beff2fb6 HTTP/1.1" 401 46
+2023-09-09 15:27:53,161 ERROR :: Error while making GET request to /fapi/v1/account: {'code': -2014, 'msg': 'API-key format invalid.'} (error code 401)
+2023-09-09 15:27:53,164 INFO :: Binance Futures Client successfully initialized
+2023-09-09 15:27:53,199 DEBUG :: Starting new HTTPS connection (1): testnet.bitmex.com:443
+2023-09-09 15:27:53,348 DEBUG :: https://testnet.bitmex.com:443 "GET /api/v1/instrument/active HTTP/1.1" 400 59
+2023-09-09 15:27:53,349 ERROR :: Error while making GET request to /api/v1/instrument/active: {'error': {'message': 'Missing API key.', 'name': 'HTTPError'}} (error code 400)
+2023-09-09 15:27:53,354 DEBUG :: Starting new HTTPS connection (1): testnet.bitmex.com:443
+2023-09-09 15:27:53,497 DEBUG :: https://testnet.bitmex.com:443 "GET /api/v1/user/margin?currency=all HTTP/1.1" 400 59
+2023-09-09 15:27:53,497 ERROR :: Error while making GET request to /api/v1/user/margin: {'error': {'message': 'Missing API key.', 'name': 'HTTPError'}} (error code 400)
+2023-09-09 15:27:53,498 INFO :: Bitmex Client successfully initialized
+2023-09-09 15:29:46,530 DEBUG :: Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2023-09-09 15:29:47,594 DEBUG :: https://testnet.binancefuture.com:443 "GET /fapi/v1/exchangeInfo HTTP/1.1" 200 None
+2023-09-09 15:29:47,603 DEBUG :: Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2023-09-09 15:29:48,453 DEBUG :: https://testnet.binancefuture.com:443 "GET /fapi/v1/account?timestamp=1694266187599&signature=361bf05ca53507ae1707175129643f98f1767dfcd913a7995a2d0e50cdc4b709 HTTP/1.1" 401 46
+2023-09-09 15:29:48,454 ERROR :: Error while making GET request to /fapi/v1/account: {'code': -2014, 'msg': 'API-key format invalid.'} (error code 401)
+2023-09-09 15:29:48,457 INFO :: Binance Futures Client successfully initialized
+2023-09-09 15:29:48,489 DEBUG :: Starting new HTTPS connection (1): testnet.bitmex.com:443
+2023-09-09 15:29:48,651 DEBUG :: https://testnet.bitmex.com:443 "GET /api/v1/instrument/active HTTP/1.1" 400 59
+2023-09-09 15:29:48,652 ERROR :: Error while making GET request to /api/v1/instrument/active: {'error': {'message': 'Missing API key.', 'name': 'HTTPError'}} (error code 400)
+2023-09-09 15:29:48,655 DEBUG :: Starting new HTTPS connection (1): testnet.bitmex.com:443
+2023-09-09 15:29:48,780 DEBUG :: https://testnet.bitmex.com:443 "GET /api/v1/user/margin?currency=all HTTP/1.1" 400 59
+2023-09-09 15:29:48,781 ERROR :: Error while making GET request to /api/v1/user/margin: {'error': {'message': 'Missing API key.', 'name': 'HTTPError'}} (error code 400)
+2023-09-09 15:29:48,781 INFO :: Bitmex Client successfully initialized
+2023-09-09 15:30:41,717 DEBUG :: Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2023-09-09 15:30:42,764 DEBUG :: https://testnet.binancefuture.com:443 "GET /fapi/v1/exchangeInfo HTTP/1.1" 200 None
+2023-09-09 15:30:42,776 DEBUG :: Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2023-09-09 15:30:43,626 DEBUG :: https://testnet.binancefuture.com:443 "GET /fapi/v1/account?timestamp=1694266242773&signature=68c9e3c40a1c44cbf84adf373e65a56e806454779c697b4f87515b8dfa61b1f4 HTTP/1.1" 401 46
+2023-09-09 15:30:43,627 ERROR :: Error while making GET request to /fapi/v1/account: {'code': -2014, 'msg': 'API-key format invalid.'} (error code 401)
+2023-09-09 15:30:43,630 INFO :: Binance Futures Client successfully initialized
+2023-09-09 15:30:43,635 DEBUG :: Starting new HTTPS connection (1): testnet.bitmex.com:443
+2023-09-09 15:30:43,772 DEBUG :: https://testnet.bitmex.com:443 "GET /api/v1/instrument/active HTTP/1.1" 401 59
+2023-09-09 15:30:43,773 ERROR :: Error while making GET request to /api/v1/instrument/active: {'error': {'message': 'Invalid API Key.', 'name': 'HTTPError'}} (error code 401)
+2023-09-09 15:30:43,777 DEBUG :: Starting new HTTPS connection (1): testnet.bitmex.com:443
+2023-09-09 15:30:43,918 DEBUG :: https://testnet.bitmex.com:443 "GET /api/v1/user/margin?currency=all HTTP/1.1" 401 59
+2023-09-09 15:30:43,918 ERROR :: Error while making GET request to /api/v1/user/margin: {'error': {'message': 'Invalid API Key.', 'name': 'HTTPError'}} (error code 401)
+2023-09-09 15:30:43,919 INFO :: Bitmex Client successfully initialized
+2023-09-09 15:31:50,441 DEBUG :: Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2023-09-09 15:31:51,534 DEBUG :: https://testnet.binancefuture.com:443 "GET /fapi/v1/exchangeInfo HTTP/1.1" 200 None
+2023-09-09 15:31:51,545 DEBUG :: Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2023-09-09 15:31:52,383 DEBUG :: https://testnet.binancefuture.com:443 "GET /fapi/v1/account?timestamp=1694266311542&signature=9329f8ff1b2cab24f8aa4673266535d2bf8838cb582c73fb152485aa20ee97ae HTTP/1.1" 401 46
+2023-09-09 15:31:52,384 ERROR :: Error while making GET request to /fapi/v1/account: {'code': -2014, 'msg': 'API-key format invalid.'} (error code 401)
+2023-09-09 15:31:52,387 INFO :: Binance Futures Client successfully initialized
+2023-09-09 15:31:52,431 DEBUG :: Starting new HTTPS connection (1): testnet.bitmex.com:443
+2023-09-09 15:31:52,578 DEBUG :: https://testnet.bitmex.com:443 "GET /api/v1/instrument/active HTTP/1.1" 401 59
+2023-09-09 15:31:52,580 ERROR :: Error while making GET request to /api/v1/instrument/active: {'error': {'message': 'Invalid API Key.', 'name': 'HTTPError'}} (error code 401)
+2023-09-09 15:31:52,584 DEBUG :: Starting new HTTPS connection (1): testnet.bitmex.com:443
+2023-09-09 15:31:52,722 DEBUG :: https://testnet.bitmex.com:443 "GET /api/v1/user/margin?currency=all HTTP/1.1" 401 59
+2023-09-09 15:31:52,723 ERROR :: Error while making GET request to /api/v1/user/margin: {'error': {'message': 'Invalid API Key.', 'name': 'HTTPError'}} (error code 401)
+2023-09-09 15:31:52,725 INFO :: Bitmex Client successfully initialized
+2023-09-09 15:31:57,801 DEBUG :: Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2023-09-09 15:31:58,837 DEBUG :: https://testnet.binancefuture.com:443 "GET /fapi/v1/exchangeInfo HTTP/1.1" 200 None
+2023-09-09 15:31:58,849 DEBUG :: Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2023-09-09 15:31:59,675 DEBUG :: https://testnet.binancefuture.com:443 "GET /fapi/v1/account?timestamp=1694266318846&signature=0aa4e0814acb6c56dbe222430427e38ed271d25cdd04dd10a72a80246d54d145 HTTP/1.1" 401 46
+2023-09-09 15:31:59,677 ERROR :: Error while making GET request to /fapi/v1/account: {'code': -2014, 'msg': 'API-key format invalid.'} (error code 401)
+2023-09-09 15:31:59,679 INFO :: Binance Futures Client successfully initialized
+2023-09-09 15:31:59,682 DEBUG :: Starting new HTTPS connection (1): testnet.bitmex.com:443
+2023-09-09 15:31:59,844 DEBUG :: https://testnet.bitmex.com:443 "GET /api/v1/instrument/active HTTP/1.1" 401 59
+2023-09-09 15:31:59,846 ERROR :: Error while making GET request to /api/v1/instrument/active: {'error': {'message': 'Invalid API Key.', 'name': 'HTTPError'}} (error code 401)
+2023-09-09 15:31:59,853 DEBUG :: Starting new HTTPS connection (1): testnet.bitmex.com:443
+2023-09-09 15:32:00,003 DEBUG :: https://testnet.bitmex.com:443 "GET /api/v1/user/margin?currency=all HTTP/1.1" 401 59
+2023-09-09 15:32:00,005 ERROR :: Error while making GET request to /api/v1/user/margin: {'error': {'message': 'Invalid API Key.', 'name': 'HTTPError'}} (error code 401)
+2023-09-09 15:32:00,006 INFO :: Bitmex Client successfully initialized
+2023-09-09 15:37:14,771 DEBUG :: Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2023-09-09 15:37:15,626 DEBUG :: https://testnet.binancefuture.com:443 "GET /fapi/v1/exchangeInfo HTTP/1.1" 200 None
+2023-09-09 15:37:15,633 DEBUG :: Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2023-09-09 15:37:16,464 DEBUG :: https://testnet.binancefuture.com:443 "GET /fapi/v1/account?timestamp=1694266635630&signature=6f10cae38e23553620427098846256c9e2d98b4dc62eb7a33837e5f0bf282472 HTTP/1.1" 401 46
+2023-09-09 15:37:16,465 ERROR :: Error while making GET request to /fapi/v1/account: {'code': -2014, 'msg': 'API-key format invalid.'} (error code 401)
+2023-09-09 15:37:16,468 INFO :: Binance Futures Client successfully initialized
+2023-09-09 15:37:16,500 DEBUG :: Starting new HTTPS connection (1): testnet.bitmex.com:443
+2023-09-09 15:37:16,647 DEBUG :: https://testnet.bitmex.com:443 "GET /api/v1/instrument/active HTTP/1.1" 401 59
+2023-09-09 15:37:16,648 ERROR :: Error while making GET request to /api/v1/instrument/active: {'error': {'message': 'Invalid API Key.', 'name': 'HTTPError'}} (error code 401)
+2023-09-09 15:37:16,653 DEBUG :: Starting new HTTPS connection (1): testnet.bitmex.com:443
+2023-09-09 15:37:16,794 DEBUG :: https://testnet.bitmex.com:443 "GET /api/v1/user/margin?currency=all HTTP/1.1" 401 59
+2023-09-09 15:37:16,795 ERROR :: Error while making GET request to /api/v1/user/margin: {'error': {'message': 'Invalid API Key.', 'name': 'HTTPError'}} (error code 401)
+2023-09-09 15:37:16,797 INFO :: Bitmex Client successfully initialized
+2023-09-09 15:37:17,009 ERROR :: Binance connection error: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1006)
+2023-09-09 15:37:17,009 ERROR :: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1006) - goodbye
+2023-09-09 15:37:17,009 ERROR :: error from callback <bound method BinanceClient._on_close of <connectors.binance.BinanceClient object at 0x106d85350>>: BinanceClient._on_close() takes 2 positional arguments but 4 were given
+2023-09-09 15:37:17,009 ERROR :: Binance connection error: BinanceClient._on_close() takes 2 positional arguments but 4 were given
+2023-09-09 15:37:17,037 ERROR :: Bitmex connection error: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1006)
+2023-09-09 15:37:17,038 ERROR :: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1006) - goodbye
+2023-09-09 15:37:17,038 ERROR :: error from callback <bound method BitmexClient._on_close of <connectors.bitmex.BitmexClient object at 0x107b7d950>>: BitmexClient._on_close() takes 2 positional arguments but 4 were given
+2023-09-09 15:37:17,038 ERROR :: Bitmex connection error: BitmexClient._on_close() takes 2 positional arguments but 4 were given
+2023-09-09 15:37:19,074 ERROR :: Bitmex connection error: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1006)
+2023-09-09 15:37:19,074 ERROR :: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1006) - goodbye
+2023-09-09 15:37:19,512 ERROR :: Binance connection error: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1006)
+2023-09-09 15:37:19,512 ERROR :: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1006) - goodbye
+2023-09-09 15:37:21,077 ERROR :: Bitmex error in run_forever() method: socket is already opened
+2023-09-09 15:37:21,518 ERROR :: Binance error in run_forever() method: socket is already opened
+2023-09-09 15:37:23,083 ERROR :: Bitmex error in run_forever() method: socket is already opened
+2023-09-09 15:37:23,523 ERROR :: Binance error in run_forever() method: socket is already opened
+2023-09-09 15:37:25,085 ERROR :: Bitmex error in run_forever() method: socket is already opened
+2023-09-09 15:37:25,529 ERROR :: Binance error in run_forever() method: socket is already opened
+2023-09-09 15:37:27,086 ERROR :: Bitmex error in run_forever() method: socket is already opened
+2023-09-09 15:38:09,646 DEBUG :: Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2023-09-09 15:38:10,699 DEBUG :: https://testnet.binancefuture.com:443 "GET /fapi/v1/exchangeInfo HTTP/1.1" 200 None
+2023-09-09 15:38:10,712 DEBUG :: Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2023-09-09 15:38:11,578 DEBUG :: https://testnet.binancefuture.com:443 "GET /fapi/v1/account?timestamp=1694266690709&signature=0ac45f6c12939bf0334773b7a5e7f5cd649a60f4b9b7053b590b7985db94cd9a HTTP/1.1" 401 69
+2023-09-09 15:38:11,579 ERROR :: Error while making GET request to /fapi/v1/account: {'code': -2015, 'msg': 'Invalid API-key, IP, or permissions for action'} (error code 401)
+2023-09-09 15:38:11,582 INFO :: Binance Futures Client successfully initialized
+2023-09-09 15:38:11,585 DEBUG :: Starting new HTTPS connection (1): testnet.bitmex.com:443
+2023-09-09 15:38:11,725 DEBUG :: https://testnet.bitmex.com:443 "GET /api/v1/instrument/active HTTP/1.1" 400 59
+2023-09-09 15:38:11,726 ERROR :: Error while making GET request to /api/v1/instrument/active: {'error': {'message': 'Missing API key.', 'name': 'HTTPError'}} (error code 400)
+2023-09-09 15:38:11,731 DEBUG :: Starting new HTTPS connection (1): testnet.bitmex.com:443
+2023-09-09 15:38:11,872 DEBUG :: https://testnet.bitmex.com:443 "GET /api/v1/user/margin?currency=all HTTP/1.1" 400 59
+2023-09-09 15:38:11,872 ERROR :: Error while making GET request to /api/v1/user/margin: {'error': {'message': 'Missing API key.', 'name': 'HTTPError'}} (error code 400)
+2023-09-09 15:38:11,873 INFO :: Bitmex Client successfully initialized
+2023-09-09 15:38:12,059 ERROR :: Bitmex connection error: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1006)
+2023-09-09 15:38:12,059 ERROR :: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1006) - goodbye
+2023-09-09 15:38:12,059 ERROR :: Binance connection error: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1006)
+2023-09-09 15:38:12,059 ERROR :: error from callback <bound method BitmexClient._on_close of <connectors.bitmex.BitmexClient object at 0x10202d990>>: BitmexClient._on_close() takes 2 positional arguments but 4 were given
+2023-09-09 15:38:12,059 ERROR :: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1006) - goodbye
+2023-09-09 15:38:12,059 ERROR :: Bitmex connection error: BitmexClient._on_close() takes 2 positional arguments but 4 were given
+2023-09-09 15:38:12,059 ERROR :: error from callback <bound method BinanceClient._on_close of <connectors.binance.BinanceClient object at 0x111bdd350>>: BinanceClient._on_close() takes 2 positional arguments but 4 were given
+2023-09-09 15:38:12,060 ERROR :: Binance connection error: BinanceClient._on_close() takes 2 positional arguments but 4 were given
+2023-09-09 15:38:14,097 ERROR :: Bitmex connection error: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1006)
+2023-09-09 15:38:14,097 ERROR :: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1006) - goodbye
+2023-09-09 15:38:14,545 ERROR :: Binance connection error: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1006)
+2023-09-09 15:38:14,545 ERROR :: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1006) - goodbye
+2023-09-09 15:38:16,103 ERROR :: Bitmex error in run_forever() method: socket is already opened
+2023-09-09 15:38:16,550 ERROR :: Binance error in run_forever() method: socket is already opened
+2023-09-09 15:38:18,108 ERROR :: Bitmex error in run_forever() method: socket is already opened
+2023-09-09 15:38:18,554 ERROR :: Binance error in run_forever() method: socket is already opened
+2023-09-09 15:38:20,114 ERROR :: Bitmex error in run_forever() method: socket is already opened
+2023-09-09 15:38:20,559 ERROR :: Binance error in run_forever() method: socket is already opened
+2023-09-09 15:38:22,118 ERROR :: Bitmex error in run_forever() method: socket is already opened
+2023-09-09 15:38:22,565 ERROR :: Binance error in run_forever() method: socket is already opened
+2023-09-09 15:38:24,124 ERROR :: Bitmex error in run_forever() method: socket is already opened
+2023-09-09 15:38:24,571 ERROR :: Binance error in run_forever() method: socket is already opened
+2023-09-09 15:38:26,129 ERROR :: Bitmex error in run_forever() method: socket is already opened
+2023-09-09 15:38:26,573 ERROR :: Binance error in run_forever() method: socket is already opened
+2023-09-09 15:38:28,131 ERROR :: Bitmex error in run_forever() method: socket is already opened
+2023-09-09 15:38:28,581 ERROR :: Binance error in run_forever() method: socket is already opened
+2023-09-09 15:38:30,132 ERROR :: Bitmex error in run_forever() method: socket is already opened
+2023-09-09 15:38:30,583 ERROR :: Binance error in run_forever() method: socket is already opened
+2023-09-09 15:38:32,136 ERROR :: Bitmex error in run_forever() method: socket is already opened
+2023-09-09 15:38:32,587 ERROR :: Binance error in run_forever() method: socket is already opened
+2023-09-09 15:38:34,141 ERROR :: Bitmex error in run_forever() method: socket is already opened
+2023-09-09 15:38:34,590 ERROR :: Binance error in run_forever() method: socket is already opened
+2023-09-09 15:38:36,146 ERROR :: Bitmex error in run_forever() method: socket is already opened
+2023-09-09 15:38:36,595 ERROR :: Binance error in run_forever() method: socket is already opened
+2023-09-09 15:38:38,148 ERROR :: Bitmex error in run_forever() method: socket is already opened
+2023-09-09 15:38:38,598 ERROR :: Binance error in run_forever() method: socket is already opened
+2023-09-09 15:38:40,149 ERROR :: Bitmex error in run_forever() method: socket is already opened
+2023-09-09 15:38:40,601 ERROR :: Binance error in run_forever() method: socket is already opened
+2023-09-09 15:38:42,153 ERROR :: Bitmex error in run_forever() method: socket is already opened
+2023-09-09 15:38:42,605 ERROR :: Binance error in run_forever() method: socket is already opened
+2023-09-09 15:38:44,157 ERROR :: Bitmex error in run_forever() method: socket is already opened
+2023-09-09 15:38:44,611 ERROR :: Binance error in run_forever() method: socket is already opened
+2023-09-09 15:38:46,161 ERROR :: Bitmex error in run_forever() method: socket is already opened
+2023-09-09 15:38:46,616 ERROR :: Binance error in run_forever() method: socket is already opened
+2023-09-09 15:38:48,163 ERROR :: Bitmex error in run_forever() method: socket is already opened
+2023-09-09 15:38:48,619 ERROR :: Binance error in run_forever() method: socket is already opened
+2023-09-09 15:38:50,165 ERROR :: Bitmex error in run_forever() method: socket is already opened
+2023-09-09 15:38:50,620 ERROR :: Binance error in run_forever() method: socket is already opened
+2023-09-09 15:38:52,170 ERROR :: Bitmex error in run_forever() method: socket is already opened
+2023-09-09 15:38:52,623 ERROR :: Binance error in run_forever() method: socket is already opened
+2023-09-09 15:38:54,176 ERROR :: Bitmex error in run_forever() method: socket is already opened
+2023-09-09 15:38:54,626 ERROR :: Binance error in run_forever() method: socket is already opened
+2023-09-09 15:38:56,181 ERROR :: Bitmex error in run_forever() method: socket is already opened
+2023-09-09 15:38:56,629 ERROR :: Binance error in run_forever() method: socket is already opened
+2023-09-09 15:38:58,185 ERROR :: Bitmex error in run_forever() method: socket is already opened
+2023-09-09 15:38:58,630 ERROR :: Binance error in run_forever() method: socket is already opened
+2023-09-09 15:39:00,190 ERROR :: Bitmex error in run_forever() method: socket is already opened
+2023-09-09 15:39:00,633 ERROR :: Binance error in run_forever() method: socket is already opened
+2023-09-09 15:39:02,192 ERROR :: Bitmex error in run_forever() method: socket is already opened
+2023-09-09 15:39:02,634 ERROR :: Binance error in run_forever() method: socket is already opened
+2023-09-09 15:39:03,804 DEBUG :: Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2023-09-09 15:39:04,904 DEBUG :: https://testnet.binancefuture.com:443 "GET /fapi/v1/exchangeInfo HTTP/1.1" 200 None
+2023-09-09 15:39:04,922 DEBUG :: Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2023-09-09 15:39:05,793 DEBUG :: https://testnet.binancefuture.com:443 "GET /fapi/v1/account?timestamp=1694266744918&signature=b0e765b967babe6edd14c2b9d60b5feba0e0deb2c9fd867af04f66530286d1fc HTTP/1.1" 401 69
+2023-09-09 15:39:05,794 ERROR :: Error while making GET request to /fapi/v1/account: {'code': -2015, 'msg': 'Invalid API-key, IP, or permissions for action'} (error code 401)
+2023-09-09 15:39:05,797 INFO :: Binance Futures Client successfully initialized
+2023-09-09 15:39:05,829 DEBUG :: Starting new HTTPS connection (1): testnet.bitmex.com:443
+2023-09-09 15:39:05,984 DEBUG :: https://testnet.bitmex.com:443 "GET /api/v1/instrument/active HTTP/1.1" 400 59
+2023-09-09 15:39:05,986 ERROR :: Error while making GET request to /api/v1/instrument/active: {'error': {'message': 'Missing API key.', 'name': 'HTTPError'}} (error code 400)
+2023-09-09 15:39:05,993 DEBUG :: Starting new HTTPS connection (1): testnet.bitmex.com:443
+2023-09-09 15:39:06,131 DEBUG :: https://testnet.bitmex.com:443 "GET /api/v1/user/margin?currency=all HTTP/1.1" 400 59
+2023-09-09 15:39:06,132 ERROR :: Error while making GET request to /api/v1/user/margin: {'error': {'message': 'Missing API key.', 'name': 'HTTPError'}} (error code 400)
+2023-09-09 15:39:06,135 INFO :: Bitmex Client successfully initialized
+2023-09-09 15:39:06,312 ERROR :: Binance connection error: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1006)
+2023-09-09 15:39:06,312 ERROR :: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1006) - goodbye
+2023-09-09 15:39:06,313 ERROR :: error from callback <bound method BinanceClient._on_close of <connectors.binance.BinanceClient object at 0x11a801350>>: BinanceClient._on_close() takes 2 positional arguments but 4 were given
+2023-09-09 15:39:06,313 ERROR :: Binance connection error: BinanceClient._on_close() takes 2 positional arguments but 4 were given
+2023-09-09 15:39:06,343 ERROR :: Bitmex connection error: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1006)
+2023-09-09 15:39:06,343 ERROR :: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1006) - goodbye
+2023-09-09 15:39:06,343 ERROR :: error from callback <bound method BitmexClient._on_close of <connectors.bitmex.BitmexClient object at 0x11aa64a50>>: BitmexClient._on_close() takes 2 positional arguments but 4 were given
+2023-09-09 15:39:06,343 ERROR :: Bitmex connection error: BitmexClient._on_close() takes 2 positional arguments but 4 were given
+2023-09-09 15:39:08,381 ERROR :: Bitmex connection error: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1006)
+2023-09-09 15:39:08,381 ERROR :: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1006) - goodbye
+2023-09-09 15:39:08,804 ERROR :: Binance connection error: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1006)
+2023-09-09 15:39:08,805 ERROR :: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1006) - goodbye
+2023-09-09 15:39:10,381 ERROR :: Bitmex error in run_forever() method: socket is already opened
+2023-09-09 15:39:10,810 ERROR :: Binance error in run_forever() method: socket is already opened
+2023-09-09 15:39:12,384 ERROR :: Bitmex error in run_forever() method: socket is already opened
+2023-09-09 15:39:12,814 ERROR :: Binance error in run_forever() method: socket is already opened
+2023-09-09 15:39:14,386 ERROR :: Bitmex error in run_forever() method: socket is already opened
+2023-09-09 15:39:14,819 ERROR :: Binance error in run_forever() method: socket is already opened
+2023-09-09 15:39:16,390 ERROR :: Bitmex error in run_forever() method: socket is already opened
+2023-09-09 15:39:16,824 ERROR :: Binance error in run_forever() method: socket is already opened
+2023-09-09 15:39:18,393 ERROR :: Bitmex error in run_forever() method: socket is already opened
+2023-09-09 15:39:18,828 ERROR :: Binance error in run_forever() method: socket is already opened
+2023-09-09 15:39:20,398 ERROR :: Bitmex error in run_forever() method: socket is already opened
+2023-09-09 15:39:20,829 ERROR :: Binance error in run_forever() method: socket is already opened
+2023-09-09 15:39:22,401 ERROR :: Bitmex error in run_forever() method: socket is already opened
+2023-09-09 15:39:22,830 ERROR :: Binance error in run_forever() method: socket is already opened
+2023-09-09 15:39:24,406 ERROR :: Bitmex error in run_forever() method: socket is already opened
+2023-09-09 15:39:24,833 ERROR :: Binance error in run_forever() method: socket is already opened
+2023-09-09 15:39:26,407 ERROR :: Bitmex error in run_forever() method: socket is already opened
+2023-09-09 15:39:26,834 ERROR :: Binance error in run_forever() method: socket is already opened
+2023-09-09 15:39:28,409 ERROR :: Bitmex error in run_forever() method: socket is already opened
+2023-09-09 15:39:28,839 ERROR :: Binance error in run_forever() method: socket is already opened
+2023-09-09 15:39:30,414 ERROR :: Bitmex error in run_forever() method: socket is already opened
+2023-09-09 15:39:30,843 ERROR :: Binance error in run_forever() method: socket is already opened
+2023-09-09 15:39:32,415 ERROR :: Bitmex error in run_forever() method: socket is already opened
+2023-09-09 15:39:32,848 ERROR :: Binance error in run_forever() method: socket is already opened
+2023-09-09 15:39:34,417 ERROR :: Bitmex error in run_forever() method: socket is already opened
+2023-09-09 15:39:34,851 ERROR :: Binance error in run_forever() method: socket is already opened
+2023-09-09 15:39:36,424 ERROR :: Bitmex error in run_forever() method: socket is already opened
+2023-09-09 15:39:36,852 ERROR :: Binance error in run_forever() method: socket is already opened
+2023-09-09 15:40:52,581 DEBUG :: Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2023-09-09 15:40:53,681 DEBUG :: https://testnet.binancefuture.com:443 "GET /fapi/v1/exchangeInfo HTTP/1.1" 200 None
+2023-09-09 15:40:53,694 DEBUG :: Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2023-09-09 15:40:54,546 DEBUG :: https://testnet.binancefuture.com:443 "GET /fapi/v1/account?timestamp=1694266853691&signature=ee8f3a58ac765c154b7339c8dcedf4ea217a97c2521937ca87f9c66dc00bf953 HTTP/1.1" 401 69
+2023-09-09 15:40:54,547 ERROR :: Error while making GET request to /fapi/v1/account: {'code': -2015, 'msg': 'Invalid API-key, IP, or permissions for action'} (error code 401)
+2023-09-09 15:40:54,548 INFO :: Binance Futures Client successfully initialized
+2023-09-09 15:40:54,584 DEBUG :: Starting new HTTPS connection (1): testnet.bitmex.com:443
+2023-09-09 15:40:54,727 DEBUG :: https://testnet.bitmex.com:443 "GET /api/v1/instrument/active HTTP/1.1" 401 59
+2023-09-09 15:40:54,728 ERROR :: Error while making GET request to /api/v1/instrument/active: {'error': {'message': 'Invalid API Key.', 'name': 'HTTPError'}} (error code 401)
+2023-09-09 15:40:54,731 DEBUG :: Starting new HTTPS connection (1): testnet.bitmex.com:443
+2023-09-09 15:40:54,863 DEBUG :: https://testnet.bitmex.com:443 "GET /api/v1/user/margin?currency=all HTTP/1.1" 401 59
+2023-09-09 15:40:54,864 ERROR :: Error while making GET request to /api/v1/user/margin: {'error': {'message': 'Invalid API Key.', 'name': 'HTTPError'}} (error code 401)
+2023-09-09 15:40:54,866 INFO :: Bitmex Client successfully initialized
+2023-09-09 15:40:55,099 ERROR :: Binance connection error: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1006)
+2023-09-09 15:40:55,099 ERROR :: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1006) - goodbye
+2023-09-09 15:40:55,099 ERROR :: error from callback <bound method BinanceClient._on_close of <connectors.binance.BinanceClient object at 0x102a01350>>: BinanceClient._on_close() takes 2 positional arguments but 4 were given
+2023-09-09 15:40:55,101 ERROR :: Binance connection error: BinanceClient._on_close() takes 2 positional arguments but 4 were given
+2023-09-09 15:40:55,131 ERROR :: Bitmex connection error: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1006)
+2023-09-09 15:40:55,132 ERROR :: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1006) - goodbye
+2023-09-09 15:40:55,132 ERROR :: error from callback <bound method BitmexClient._on_close of <connectors.bitmex.BitmexClient object at 0x111110390>>: BitmexClient._on_close() takes 2 positional arguments but 4 were given
+2023-09-09 15:40:55,132 ERROR :: Bitmex connection error: BitmexClient._on_close() takes 2 positional arguments but 4 were given
+2023-09-09 15:40:57,171 ERROR :: Bitmex connection error: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1006)
+2023-09-09 15:40:57,172 ERROR :: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1006) - goodbye
+2023-09-09 15:40:57,595 ERROR :: Binance connection error: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1006)
+2023-09-09 15:40:57,596 ERROR :: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1006) - goodbye
+2023-09-09 15:40:59,176 ERROR :: Bitmex error in run_forever() method: socket is already opened
+2023-09-09 15:40:59,601 ERROR :: Binance error in run_forever() method: socket is already opened
+2023-09-09 15:41:01,182 ERROR :: Bitmex error in run_forever() method: socket is already opened
+2023-09-09 15:41:01,602 ERROR :: Binance error in run_forever() method: socket is already opened
+2023-09-09 15:41:03,184 ERROR :: Bitmex error in run_forever() method: socket is already opened
+2023-09-09 15:41:03,608 ERROR :: Binance error in run_forever() method: socket is already opened
+2023-09-09 15:41:05,186 ERROR :: Bitmex error in run_forever() method: socket is already opened
+2023-09-09 15:41:05,613 ERROR :: Binance error in run_forever() method: socket is already opened
+2023-09-09 15:41:07,191 ERROR :: Bitmex error in run_forever() method: socket is already opened
+2023-09-09 15:41:07,617 ERROR :: Binance error in run_forever() method: socket is already opened
+2023-09-09 15:41:09,194 ERROR :: Bitmex error in run_forever() method: socket is already opened
+2023-09-09 15:41:09,618 ERROR :: Binance error in run_forever() method: socket is already opened
+2023-09-09 15:41:11,196 ERROR :: Bitmex error in run_forever() method: socket is already opened
+2023-09-09 15:41:11,624 ERROR :: Binance error in run_forever() method: socket is already opened
+2023-09-09 15:41:13,200 ERROR :: Bitmex error in run_forever() method: socket is already opened
+2023-09-09 15:41:13,626 ERROR :: Binance error in run_forever() method: socket is already opened
+2023-09-09 15:41:15,206 ERROR :: Bitmex error in run_forever() method: socket is already opened
+2023-09-09 15:41:15,628 ERROR :: Binance error in run_forever() method: socket is already opened
+2023-09-09 15:41:17,209 ERROR :: Bitmex error in run_forever() method: socket is already opened
+2023-09-09 15:41:17,634 ERROR :: Binance error in run_forever() method: socket is already opened
+2023-09-09 15:41:19,210 ERROR :: Bitmex error in run_forever() method: socket is already opened
+2023-09-09 15:41:19,639 ERROR :: Binance error in run_forever() method: socket is already opened
+2023-09-09 15:41:21,215 ERROR :: Bitmex error in run_forever() method: socket is already opened
+2023-09-09 15:41:21,641 ERROR :: Binance error in run_forever() method: socket is already opened
+2023-09-09 15:41:23,219 ERROR :: Bitmex error in run_forever() method: socket is already opened
+2023-09-09 15:41:23,643 ERROR :: Binance error in run_forever() method: socket is already opened
+2023-09-09 15:41:25,219 ERROR :: Bitmex error in run_forever() method: socket is already opened
+2023-09-09 15:41:25,648 ERROR :: Binance error in run_forever() method: socket is already opened
+2023-09-09 15:41:27,222 ERROR :: Bitmex error in run_forever() method: socket is already opened
+2023-09-09 15:41:27,652 ERROR :: Binance error in run_forever() method: socket is already opened
+2023-09-09 15:41:29,225 ERROR :: Bitmex error in run_forever() method: socket is already opened
+2023-09-09 15:41:29,657 ERROR :: Binance error in run_forever() method: socket is already opened
+2023-09-09 15:41:31,226 ERROR :: Bitmex error in run_forever() method: socket is already opened
+2023-09-09 15:41:31,659 ERROR :: Binance error in run_forever() method: socket is already opened
+2023-09-09 15:41:33,231 ERROR :: Bitmex error in run_forever() method: socket is already opened
+2023-09-09 15:41:33,662 ERROR :: Binance error in run_forever() method: socket is already opened
+2023-09-09 15:41:35,237 ERROR :: Bitmex error in run_forever() method: socket is already opened
+2023-09-09 15:41:35,665 ERROR :: Binance error in run_forever() method: socket is already opened
+2023-09-09 15:41:37,242 ERROR :: Bitmex error in run_forever() method: socket is already opened
+2023-09-09 15:41:37,669 ERROR :: Binance error in run_forever() method: socket is already opened
+2023-09-09 15:41:39,245 ERROR :: Bitmex error in run_forever() method: socket is already opened
+2023-09-09 15:41:39,672 ERROR :: Binance error in run_forever() method: socket is already opened
+2023-09-09 15:41:41,251 ERROR :: Bitmex error in run_forever() method: socket is already opened
+2023-09-09 15:41:41,676 ERROR :: Binance error in run_forever() method: socket is already opened
+2023-09-09 15:41:43,255 ERROR :: Bitmex error in run_forever() method: socket is already opened
+2023-09-09 15:41:43,682 ERROR :: Binance error in run_forever() method: socket is already opened
+2023-09-09 15:41:45,261 ERROR :: Bitmex error in run_forever() method: socket is already opened
+2023-09-09 15:41:45,687 ERROR :: Binance error in run_forever() method: socket is already opened
+2023-09-09 15:41:47,265 ERROR :: Bitmex error in run_forever() method: socket is already opened
+2023-09-09 15:41:47,692 ERROR :: Binance error in run_forever() method: socket is already opened
+2023-09-09 15:41:49,266 ERROR :: Bitmex error in run_forever() method: socket is already opened
+2023-09-09 15:41:49,694 ERROR :: Binance error in run_forever() method: socket is already opened
+2023-09-09 15:41:51,267 ERROR :: Bitmex error in run_forever() method: socket is already opened
+2023-09-09 15:41:51,698 ERROR :: Binance error in run_forever() method: socket is already opened
+2023-09-09 15:41:53,270 ERROR :: Bitmex error in run_forever() method: socket is already opened
+2023-09-09 15:41:53,702 ERROR :: Binance error in run_forever() method: socket is already opened
+2023-09-09 15:41:55,276 ERROR :: Bitmex error in run_forever() method: socket is already opened
+2023-09-09 15:41:55,708 ERROR :: Binance error in run_forever() method: socket is already opened
+2023-09-09 15:41:57,279 ERROR :: Bitmex error in run_forever() method: socket is already opened
+2023-09-09 15:41:57,713 ERROR :: Binance error in run_forever() method: socket is already opened
+2023-09-09 15:41:59,285 ERROR :: Bitmex error in run_forever() method: socket is already opened
+2023-09-09 15:44:02,923 DEBUG :: Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2023-09-09 15:44:03,804 DEBUG :: https://testnet.binancefuture.com:443 "GET /fapi/v1/exchangeInfo HTTP/1.1" 200 None
+2023-09-09 15:44:03,816 DEBUG :: Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2023-09-09 15:44:04,702 DEBUG :: https://testnet.binancefuture.com:443 "GET /fapi/v1/account?timestamp=1694267043813&signature=ac5b650a36c6114b07c28ceaedb3c3702b1e61889f6891ce21685dac1b7ba4a4 HTTP/1.1" 401 69
+2023-09-09 15:44:04,704 ERROR :: Error while making GET request to /fapi/v1/account: {'code': -2015, 'msg': 'Invalid API-key, IP, or permissions for action'} (error code 401)
+2023-09-09 15:44:04,708 INFO :: Binance Futures Client successfully initialized
+2023-09-09 15:44:04,825 DEBUG :: Starting new HTTPS connection (1): testnet.bitmex.com:443
+2023-09-09 15:44:04,998 DEBUG :: https://testnet.bitmex.com:443 "GET /api/v1/instrument/active HTTP/1.1" 401 59
+2023-09-09 15:44:05,000 ERROR :: Error while making GET request to /api/v1/instrument/active: {'error': {'message': 'Invalid API Key.', 'name': 'HTTPError'}} (error code 401)
+2023-09-09 15:44:05,005 DEBUG :: Starting new HTTPS connection (1): testnet.bitmex.com:443
+2023-09-09 15:44:05,147 DEBUG :: https://testnet.bitmex.com:443 "GET /api/v1/user/margin?currency=all HTTP/1.1" 401 59
+2023-09-09 15:44:05,149 ERROR :: Error while making GET request to /api/v1/user/margin: {'error': {'message': 'Invalid API Key.', 'name': 'HTTPError'}} (error code 401)
+2023-09-09 15:44:05,151 INFO :: Bitmex Client successfully initialized
+2023-09-09 15:44:05,366 ERROR :: Binance connection error: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1006)
+2023-09-09 15:44:05,366 ERROR :: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1006) - goodbye
+2023-09-09 15:44:05,366 ERROR :: error from callback <bound method BinanceClient._on_close of <connectors.binance.BinanceClient object at 0x118549bd0>>: BinanceClient._on_close() takes 2 positional arguments but 4 were given
+2023-09-09 15:44:05,366 ERROR :: Binance connection error: BinanceClient._on_close() takes 2 positional arguments but 4 were given
+2023-09-09 15:44:05,394 ERROR :: Bitmex connection error: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1006)
+2023-09-09 15:44:05,394 ERROR :: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1006) - goodbye
+2023-09-09 15:44:05,394 ERROR :: error from callback <bound method BitmexClient._on_close of <connectors.bitmex.BitmexClient object at 0x117f3a710>>: BitmexClient._on_close() takes 2 positional arguments but 4 were given
+2023-09-09 15:44:05,394 ERROR :: Bitmex connection error: BitmexClient._on_close() takes 2 positional arguments but 4 were given
+2023-09-09 15:44:07,433 ERROR :: Bitmex connection error: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1006)
+2023-09-09 15:44:07,433 ERROR :: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1006) - goodbye
+2023-09-09 15:44:08,146 ERROR :: Binance connection error: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1006)
+2023-09-09 15:44:08,147 ERROR :: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1006) - goodbye
+2023-09-09 15:50:47,162 DEBUG :: Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2023-09-09 15:50:48,262 DEBUG :: https://testnet.binancefuture.com:443 "GET /fapi/v1/exchangeInfo HTTP/1.1" 200 None
+2023-09-09 15:50:48,274 DEBUG :: Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2023-09-09 15:50:49,125 DEBUG :: https://testnet.binancefuture.com:443 "GET /fapi/v1/account?timestamp=1694267448271&signature=6303d6885dfeedc462b31941e947feef314561d7df69f895dd4c5fcdd5cfa55d HTTP/1.1" 401 46
+2023-09-09 15:50:49,126 ERROR :: Error while making GET request to /fapi/v1/account: {'code': -2014, 'msg': 'API-key format invalid.'} (error code 401)
+2023-09-09 15:50:49,129 INFO :: Binance Futures Client successfully initialized
+2023-09-09 15:50:49,163 DEBUG :: Starting new HTTPS connection (1): testnet.bitmex.com:443
+2023-09-09 15:50:49,305 DEBUG :: https://testnet.bitmex.com:443 "GET /api/v1/instrument/active HTTP/1.1" 400 59
+2023-09-09 15:50:49,306 ERROR :: Error while making GET request to /api/v1/instrument/active: {'error': {'message': 'Missing API key.', 'name': 'HTTPError'}} (error code 400)
+2023-09-09 15:50:49,310 DEBUG :: Starting new HTTPS connection (1): testnet.bitmex.com:443
+2023-09-09 15:50:49,452 DEBUG :: https://testnet.bitmex.com:443 "GET /api/v1/user/margin?currency=all HTTP/1.1" 400 59
+2023-09-09 15:50:49,453 ERROR :: Error while making GET request to /api/v1/user/margin: {'error': {'message': 'Missing API key.', 'name': 'HTTPError'}} (error code 400)
+2023-09-09 15:50:49,455 INFO :: Bitmex Client successfully initialized
+2023-09-09 15:50:49,675 ERROR :: Binance connection error: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1006)
+2023-09-09 15:50:49,675 ERROR :: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1006) - goodbye
+2023-09-09 15:50:49,675 ERROR :: error from callback <bound method BinanceClient._on_close of <connectors.binance.BinanceClient object at 0x107764310>>: BinanceClient._on_close() takes 2 positional arguments but 4 were given
+2023-09-09 15:50:49,676 ERROR :: Binance connection error: BinanceClient._on_close() takes 2 positional arguments but 4 were given
+2023-09-09 15:50:49,704 ERROR :: Bitmex connection error: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1006)
+2023-09-09 15:50:49,704 ERROR :: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1006) - goodbye
+2023-09-09 15:50:49,704 ERROR :: error from callback <bound method BitmexClient._on_close of <connectors.bitmex.BitmexClient object at 0x106aa3b50>>: BitmexClient._on_close() takes 2 positional arguments but 4 were given
+2023-09-09 15:50:49,704 ERROR :: Bitmex connection error: BitmexClient._on_close() takes 2 positional arguments but 4 were given
+2023-09-09 15:50:51,739 ERROR :: Bitmex connection error: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1006)
+2023-09-09 15:50:51,740 ERROR :: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1006) - goodbye
+2023-09-09 15:50:52,167 ERROR :: Binance connection error: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1006)
+2023-09-09 15:50:52,167 ERROR :: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1006) - goodbye
+2023-09-09 15:50:53,745 ERROR :: Bitmex error in run_forever() method: socket is already opened
+2023-09-09 15:50:54,168 ERROR :: Binance error in run_forever() method: socket is already opened
+2023-09-09 15:50:55,751 ERROR :: Bitmex error in run_forever() method: socket is already opened
+2023-09-09 15:50:56,174 ERROR :: Binance error in run_forever() method: socket is already opened
+2023-09-09 15:50:57,754 ERROR :: Bitmex error in run_forever() method: socket is already opened
+2023-09-09 15:50:58,177 ERROR :: Binance error in run_forever() method: socket is already opened
+2023-09-09 15:50:59,756 ERROR :: Bitmex error in run_forever() method: socket is already opened
+2023-09-09 15:51:00,181 ERROR :: Binance error in run_forever() method: socket is already opened
+2023-09-09 15:51:01,757 ERROR :: Bitmex error in run_forever() method: socket is already opened
+2023-09-09 15:51:02,187 ERROR :: Binance error in run_forever() method: socket is already opened
+2023-09-09 15:51:03,758 ERROR :: Bitmex error in run_forever() method: socket is already opened
+2023-09-09 15:51:04,188 ERROR :: Binance error in run_forever() method: socket is already opened
+2023-09-09 15:51:05,763 ERROR :: Bitmex error in run_forever() method: socket is already opened
+2023-09-09 15:51:06,191 ERROR :: Binance error in run_forever() method: socket is already opened
+2023-09-09 15:51:07,769 ERROR :: Bitmex error in run_forever() method: socket is already opened
+2023-09-09 15:51:08,196 ERROR :: Binance error in run_forever() method: socket is already opened
+2023-09-09 15:51:09,774 ERROR :: Bitmex error in run_forever() method: socket is already opened
+2023-09-09 15:51:10,202 ERROR :: Binance error in run_forever() method: socket is already opened
+2023-09-09 15:51:11,777 ERROR :: Bitmex error in run_forever() method: socket is already opened
+2023-09-09 15:51:12,207 ERROR :: Binance error in run_forever() method: socket is already opened
+2023-09-09 15:51:13,782 ERROR :: Bitmex error in run_forever() method: socket is already opened
+2023-09-09 15:51:14,210 ERROR :: Binance error in run_forever() method: socket is already opened
+2023-09-09 15:51:15,786 ERROR :: Bitmex error in run_forever() method: socket is already opened
+2023-09-09 15:51:16,598 DEBUG :: Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2023-09-09 15:51:17,672 DEBUG :: https://testnet.binancefuture.com:443 "GET /fapi/v1/exchangeInfo HTTP/1.1" 200 None
+2023-09-09 15:51:17,692 DEBUG :: Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2023-09-09 15:51:18,570 DEBUG :: https://testnet.binancefuture.com:443 "GET /fapi/v1/account?timestamp=1694267477687&signature=b9593ea3d18388d8bf5a255a690119c976cf11a39bd425f2990e3eb1363203dd HTTP/1.1" 401 46
+2023-09-09 15:51:18,571 ERROR :: Error while making GET request to /fapi/v1/account: {'code': -2014, 'msg': 'API-key format invalid.'} (error code 401)
+2023-09-09 15:51:18,575 INFO :: Binance Futures Client successfully initialized
+2023-09-09 15:51:18,580 DEBUG :: Starting new HTTPS connection (1): testnet.bitmex.com:443
+2023-09-09 15:51:18,739 DEBUG :: https://testnet.bitmex.com:443 "GET /api/v1/instrument/active HTTP/1.1" 400 59
+2023-09-09 15:51:18,742 ERROR :: Error while making GET request to /api/v1/instrument/active: {'error': {'message': 'Missing API key.', 'name': 'HTTPError'}} (error code 400)
+2023-09-09 15:51:18,749 DEBUG :: Starting new HTTPS connection (1): testnet.bitmex.com:443
+2023-09-09 15:51:18,908 DEBUG :: https://testnet.bitmex.com:443 "GET /api/v1/user/margin?currency=all HTTP/1.1" 400 59
+2023-09-09 15:51:18,910 ERROR :: Error while making GET request to /api/v1/user/margin: {'error': {'message': 'Missing API key.', 'name': 'HTTPError'}} (error code 400)
+2023-09-09 15:51:18,912 INFO :: Bitmex Client successfully initialized
+2023-09-09 15:51:19,091 ERROR :: Binance connection error: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1006)
+2023-09-09 15:51:19,091 ERROR :: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1006) - goodbye
+2023-09-09 15:51:19,091 ERROR :: error from callback <bound method BinanceClient._on_close of <connectors.binance.BinanceClient object at 0x1058ad350>>: BinanceClient._on_close() takes 2 positional arguments but 4 were given
+2023-09-09 15:51:19,091 ERROR :: Binance connection error: BinanceClient._on_close() takes 2 positional arguments but 4 were given
+2023-09-09 15:51:19,119 ERROR :: Bitmex connection error: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1006)
+2023-09-09 15:51:19,119 ERROR :: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1006) - goodbye
+2023-09-09 15:51:19,119 ERROR :: error from callback <bound method BitmexClient._on_close of <connectors.bitmex.BitmexClient object at 0x1210dd210>>: BitmexClient._on_close() takes 2 positional arguments but 4 were given
+2023-09-09 15:51:19,119 ERROR :: Bitmex connection error: BitmexClient._on_close() takes 2 positional arguments but 4 were given
+2023-09-09 15:51:21,150 ERROR :: Bitmex connection error: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1006)
+2023-09-09 15:51:21,150 ERROR :: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1006) - goodbye
+2023-09-09 15:51:25,699 DEBUG :: Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2023-09-09 15:51:26,524 DEBUG :: https://testnet.binancefuture.com:443 "GET /fapi/v1/exchangeInfo HTTP/1.1" 200 None
+2023-09-09 15:51:26,532 DEBUG :: Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2023-09-09 15:51:27,366 DEBUG :: https://testnet.binancefuture.com:443 "GET /fapi/v1/account?timestamp=1694267486529&signature=7815d4851e5fa4737b6e2f31607770b144bb4962cf8ae38d370d245b206a1e53 HTTP/1.1" 401 46
+2023-09-09 15:51:27,367 ERROR :: Error while making GET request to /fapi/v1/account: {'code': -2014, 'msg': 'API-key format invalid.'} (error code 401)
+2023-09-09 15:51:27,371 INFO :: Binance Futures Client successfully initialized
+2023-09-09 15:51:27,374 DEBUG :: Starting new HTTPS connection (1): testnet.bitmex.com:443
+2023-09-09 15:51:27,554 DEBUG :: https://testnet.bitmex.com:443 "GET /api/v1/instrument/active HTTP/1.1" 400 59
+2023-09-09 15:51:27,555 ERROR :: Error while making GET request to /api/v1/instrument/active: {'error': {'message': 'Missing API key.', 'name': 'HTTPError'}} (error code 400)
+2023-09-09 15:51:27,561 DEBUG :: Starting new HTTPS connection (1): testnet.bitmex.com:443
+2023-09-09 15:51:27,703 DEBUG :: https://testnet.bitmex.com:443 "GET /api/v1/user/margin?currency=all HTTP/1.1" 400 59
+2023-09-09 15:51:27,705 ERROR :: Error while making GET request to /api/v1/user/margin: {'error': {'message': 'Missing API key.', 'name': 'HTTPError'}} (error code 400)
+2023-09-09 15:51:27,706 INFO :: Bitmex Client successfully initialized
+2023-09-09 15:51:27,854 ERROR :: Binance connection error: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1006)
+2023-09-09 15:51:27,854 ERROR :: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1006) - goodbye
+2023-09-09 15:51:27,854 ERROR :: error from callback <bound method BinanceClient._on_close of <connectors.binance.BinanceClient object at 0x104cbcc90>>: BinanceClient._on_close() takes 2 positional arguments but 4 were given
+2023-09-09 15:51:27,854 ERROR :: Binance connection error: BinanceClient._on_close() takes 2 positional arguments but 4 were given
+2023-09-09 15:51:27,872 ERROR :: Bitmex connection error: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1006)
+2023-09-09 15:51:27,872 ERROR :: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1006) - goodbye
+2023-09-09 15:51:27,872 ERROR :: error from callback <bound method BitmexClient._on_close of <connectors.bitmex.BitmexClient object at 0x103e9fb50>>: BitmexClient._on_close() takes 2 positional arguments but 4 were given
+2023-09-09 15:51:27,872 ERROR :: Bitmex connection error: BitmexClient._on_close() takes 2 positional arguments but 4 were given
+2023-09-09 16:07:08,279 DEBUG :: Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2023-09-09 16:07:09,175 DEBUG :: https://testnet.binancefuture.com:443 "GET /fapi/v1/exchangeInfo HTTP/1.1" 200 None
+2023-09-09 16:07:09,186 DEBUG :: Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2023-09-09 16:07:10,035 DEBUG :: https://testnet.binancefuture.com:443 "GET /fapi/v1/account?timestamp=1694268429184&signature=6593cb617f552043c33caa3f1491102c8f99b9f85df70c74d202f55d4a10211c HTTP/1.1" 400 87
+2023-09-09 16:07:10,036 ERROR :: Error while making GET request to /fapi/v1/account: {'code': -5000, 'msg': 'GET /fapi/v1/account is retired, please use GET /fapi/v2/account'} (error code 400)
+2023-09-09 16:07:10,039 INFO :: Binance Futures Client successfully initialized
+2023-09-09 16:07:10,078 DEBUG :: Starting new HTTPS connection (1): testnet.bitmex.com:443
+2023-09-09 16:07:10,279 DEBUG :: https://testnet.bitmex.com:443 "GET /api/v1/instrument/active HTTP/1.1" 400 59
+2023-09-09 16:07:10,281 ERROR :: Error while making GET request to /api/v1/instrument/active: {'error': {'message': 'Missing API key.', 'name': 'HTTPError'}} (error code 400)
+2023-09-09 16:07:10,286 DEBUG :: Starting new HTTPS connection (1): testnet.bitmex.com:443
+2023-09-09 16:07:10,420 DEBUG :: https://testnet.bitmex.com:443 "GET /api/v1/user/margin?currency=all HTTP/1.1" 400 59
+2023-09-09 16:07:10,421 ERROR :: Error while making GET request to /api/v1/user/margin: {'error': {'message': 'Missing API key.', 'name': 'HTTPError'}} (error code 400)
+2023-09-09 16:07:10,422 INFO :: Bitmex Client successfully initialized
+2023-09-09 16:07:10,598 ERROR :: Binance connection error: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1006)
+2023-09-09 16:07:10,599 ERROR :: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1006) - goodbye
+2023-09-09 16:07:10,599 ERROR :: error from callback <bound method BinanceClient._on_close of <connectors.binance.BinanceClient object at 0x115e89bd0>>: BinanceClient._on_close() takes 2 positional arguments but 4 were given
+2023-09-09 16:07:10,599 ERROR :: Binance connection error: BinanceClient._on_close() takes 2 positional arguments but 4 were given
+2023-09-09 16:07:10,626 ERROR :: Bitmex connection error: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1006)
+2023-09-09 16:07:10,626 ERROR :: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1006) - goodbye
+2023-09-09 16:07:10,627 ERROR :: error from callback <bound method BitmexClient._on_close of <connectors.bitmex.BitmexClient object at 0x102c3bb50>>: BitmexClient._on_close() takes 2 positional arguments but 4 were given
+2023-09-09 16:07:10,627 ERROR :: Bitmex connection error: BitmexClient._on_close() takes 2 positional arguments but 4 were given
+2023-09-09 16:07:12,662 ERROR :: Bitmex connection error: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1006)
+2023-09-09 16:07:12,663 ERROR :: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1006) - goodbye
+2023-09-09 16:07:13,089 ERROR :: Binance connection error: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1006)
+2023-09-09 16:07:13,089 ERROR :: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1006) - goodbye
+2023-09-09 16:07:14,668 ERROR :: Bitmex error in run_forever() method: socket is already opened
+2023-09-09 16:07:15,091 ERROR :: Binance error in run_forever() method: socket is already opened
+2023-09-09 16:07:16,674 ERROR :: Bitmex error in run_forever() method: socket is already opened
+2023-09-09 16:07:17,096 ERROR :: Binance error in run_forever() method: socket is already opened
+2023-09-09 16:07:18,681 ERROR :: Bitmex error in run_forever() method: socket is already opened
+2023-09-09 16:07:19,101 ERROR :: Binance error in run_forever() method: socket is already opened
+2023-09-09 16:07:20,686 ERROR :: Bitmex error in run_forever() method: socket is already opened
+2023-09-09 16:07:21,106 ERROR :: Binance error in run_forever() method: socket is already opened
+2023-09-09 16:07:22,691 ERROR :: Bitmex error in run_forever() method: socket is already opened
+2023-09-09 16:07:23,109 ERROR :: Binance error in run_forever() method: socket is already opened
+2023-09-09 16:07:24,695 ERROR :: Bitmex error in run_forever() method: socket is already opened
+2023-09-09 16:07:25,416 DEBUG :: Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2023-09-09 16:07:26,022 DEBUG :: https://testnet.binancefuture.com:443 "GET /fapi/v1/exchangeInfo HTTP/1.1" 200 None
+2023-09-09 16:07:26,027 DEBUG :: Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2023-09-09 16:07:26,822 DEBUG :: https://testnet.binancefuture.com:443 "GET /fapi/v1/account?timestamp=1694268446025&signature=a49b349cd14cc5d95ecbcd13b5304dd4da70c4edce9e0226e5f718915c07ac95 HTTP/1.1" 400 87
+2023-09-09 16:07:26,823 ERROR :: Error while making GET request to /fapi/v1/account: {'code': -5000, 'msg': 'GET /fapi/v1/account is retired, please use GET /fapi/v2/account'} (error code 400)
+2023-09-09 16:07:26,826 INFO :: Binance Futures Client successfully initialized
+2023-09-09 16:07:26,829 DEBUG :: Starting new HTTPS connection (1): testnet.bitmex.com:443
+2023-09-09 16:07:26,966 DEBUG :: https://testnet.bitmex.com:443 "GET /api/v1/instrument/active HTTP/1.1" 400 59
+2023-09-09 16:07:26,967 ERROR :: Error while making GET request to /api/v1/instrument/active: {'error': {'message': 'Missing API key.', 'name': 'HTTPError'}} (error code 400)
+2023-09-09 16:07:26,971 DEBUG :: Starting new HTTPS connection (1): testnet.bitmex.com:443
+2023-09-09 16:07:27,142 DEBUG :: https://testnet.bitmex.com:443 "GET /api/v1/user/margin?currency=all HTTP/1.1" 400 59
+2023-09-09 16:07:27,143 ERROR :: Error while making GET request to /api/v1/user/margin: {'error': {'message': 'Missing API key.', 'name': 'HTTPError'}} (error code 400)
+2023-09-09 16:07:27,145 INFO :: Bitmex Client successfully initialized
+2023-09-09 16:07:27,328 ERROR :: Binance connection error: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1006)
+2023-09-09 16:07:27,328 ERROR :: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1006) - goodbye
+2023-09-09 16:07:27,329 ERROR :: error from callback <bound method BinanceClient._on_close of <connectors.binance.BinanceClient object at 0x1022edbd0>>: BinanceClient._on_close() takes 2 positional arguments but 4 were given
+2023-09-09 16:07:27,329 ERROR :: Binance connection error: BinanceClient._on_close() takes 2 positional arguments but 4 were given
+2023-09-09 16:07:27,358 ERROR :: Bitmex connection error: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1006)
+2023-09-09 16:07:27,358 ERROR :: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1006) - goodbye
+2023-09-09 16:07:27,358 ERROR :: error from callback <bound method BitmexClient._on_close of <connectors.bitmex.BitmexClient object at 0x102305990>>: BitmexClient._on_close() takes 2 positional arguments but 4 were given
+2023-09-09 16:07:27,358 ERROR :: Bitmex connection error: BitmexClient._on_close() takes 2 positional arguments but 4 were given
+2023-09-09 16:07:29,397 ERROR :: Bitmex connection error: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1006)
+2023-09-09 16:07:29,398 ERROR :: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1006) - goodbye
+2023-09-09 16:07:29,817 ERROR :: Binance connection error: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1006)
+2023-09-09 16:07:29,818 ERROR :: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1006) - goodbye
+2023-09-09 16:07:39,489 DEBUG :: Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2023-09-09 16:07:40,535 DEBUG :: https://testnet.binancefuture.com:443 "GET /fapi/v1/exchangeInfo HTTP/1.1" 200 None
+2023-09-09 16:07:40,547 DEBUG :: Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2023-09-09 16:07:41,375 DEBUG :: https://testnet.binancefuture.com:443 "GET /fapi/v1/account?timestamp=1694268460543&signature=49aaa84a0c8c0b69e95b72c5691b0f0291b2832565eb08ef79332e607fd7389b HTTP/1.1" 400 87
+2023-09-09 16:07:41,376 ERROR :: Error while making GET request to /fapi/v1/account: {'code': -5000, 'msg': 'GET /fapi/v1/account is retired, please use GET /fapi/v2/account'} (error code 400)
+2023-09-09 16:07:41,379 INFO :: Binance Futures Client successfully initialized
+2023-09-09 16:07:41,383 DEBUG :: Starting new HTTPS connection (1): testnet.bitmex.com:443
+2023-09-09 16:07:41,549 DEBUG :: https://testnet.bitmex.com:443 "GET /api/v1/instrument/active HTTP/1.1" 400 59
+2023-09-09 16:07:41,550 ERROR :: Error while making GET request to /api/v1/instrument/active: {'error': {'message': 'Missing API key.', 'name': 'HTTPError'}} (error code 400)
+2023-09-09 16:07:41,554 DEBUG :: Starting new HTTPS connection (1): testnet.bitmex.com:443
+2023-09-09 16:07:41,701 DEBUG :: https://testnet.bitmex.com:443 "GET /api/v1/user/margin?currency=all HTTP/1.1" 400 59
+2023-09-09 16:07:41,703 ERROR :: Error while making GET request to /api/v1/user/margin: {'error': {'message': 'Missing API key.', 'name': 'HTTPError'}} (error code 400)
+2023-09-09 16:07:41,706 INFO :: Bitmex Client successfully initialized
+2023-09-09 16:07:41,862 ERROR :: Binance connection error: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1006)
+2023-09-09 16:07:41,863 ERROR :: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1006) - goodbye
+2023-09-09 16:07:41,863 ERROR :: error from callback <bound method BinanceClient._on_close of <connectors.binance.BinanceClient object at 0x107335350>>: BinanceClient._on_close() takes 2 positional arguments but 4 were given
+2023-09-09 16:07:41,863 ERROR :: Binance connection error: BinanceClient._on_close() takes 2 positional arguments but 4 were given
+2023-09-09 16:07:41,866 ERROR :: Bitmex connection error: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1006)
+2023-09-09 16:07:41,866 ERROR :: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1006) - goodbye
+2023-09-09 16:07:41,866 ERROR :: error from callback <bound method BitmexClient._on_close of <connectors.bitmex.BitmexClient object at 0x1073a9750>>: BitmexClient._on_close() takes 2 positional arguments but 4 were given
+2023-09-09 16:07:41,866 ERROR :: Bitmex connection error: BitmexClient._on_close() takes 2 positional arguments but 4 were given
+2023-09-09 16:08:53,841 DEBUG :: Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2023-09-09 16:08:54,936 DEBUG :: https://testnet.binancefuture.com:443 "GET /fapi/v1/exchangeInfo HTTP/1.1" 200 None
+2023-09-09 16:08:54,949 DEBUG :: Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2023-09-09 16:08:55,765 DEBUG :: https://testnet.binancefuture.com:443 "GET /fapi/v1/account?timestamp=1694268534946&signature=9f0e98acd0fef31c6cf49ce86e277d0ca89452a622eabae8720d086ed39da8c2 HTTP/1.1" 400 87
+2023-09-09 16:08:55,767 ERROR :: Error while making GET request to /fapi/v1/account: {'code': -5000, 'msg': 'GET /fapi/v1/account is retired, please use GET /fapi/v2/account'} (error code 400)
+2023-09-09 16:08:55,771 INFO :: Binance Futures Client successfully initialized
+2023-09-09 16:08:55,798 DEBUG :: Starting new HTTPS connection (1): testnet.bitmex.com:443
+2023-09-09 16:08:55,939 DEBUG :: https://testnet.bitmex.com:443 "GET /api/v1/instrument/active HTTP/1.1" 400 59
+2023-09-09 16:08:55,941 ERROR :: Error while making GET request to /api/v1/instrument/active: {'error': {'message': 'Missing API key.', 'name': 'HTTPError'}} (error code 400)
+2023-09-09 16:08:55,946 DEBUG :: Starting new HTTPS connection (1): testnet.bitmex.com:443
+2023-09-09 16:08:56,094 DEBUG :: https://testnet.bitmex.com:443 "GET /api/v1/user/margin?currency=all HTTP/1.1" 400 59
+2023-09-09 16:08:56,095 ERROR :: Error while making GET request to /api/v1/user/margin: {'error': {'message': 'Missing API key.', 'name': 'HTTPError'}} (error code 400)
+2023-09-09 16:08:56,096 INFO :: Bitmex Client successfully initialized
+2023-09-09 16:08:56,260 ERROR :: Bitmex connection error: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1006)
+2023-09-09 16:08:56,260 ERROR :: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1006) - goodbye
+2023-09-09 16:08:56,260 ERROR :: error from callback <bound method BitmexClient._on_close of <connectors.bitmex.BitmexClient object at 0x11f828250>>: BitmexClient._on_close() takes 2 positional arguments but 4 were given
+2023-09-09 16:08:56,260 ERROR :: Bitmex connection error: BitmexClient._on_close() takes 2 positional arguments but 4 were given
+2023-09-09 16:08:56,277 ERROR :: Binance connection error: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1006)
+2023-09-09 16:08:56,277 ERROR :: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1006) - goodbye
+2023-09-09 16:08:56,277 ERROR :: error from callback <bound method BinanceClient._on_close of <connectors.binance.BinanceClient object at 0x11f029c50>>: BinanceClient._on_close() takes 2 positional arguments but 4 were given
+2023-09-09 16:08:56,277 ERROR :: Binance connection error: BinanceClient._on_close() takes 2 positional arguments but 4 were given
+2023-09-09 16:08:58,303 ERROR :: Bitmex connection error: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1006)
+2023-09-09 16:08:58,303 ERROR :: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1006) - goodbye
+2023-09-09 16:08:58,766 ERROR :: Binance connection error: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1006)
+2023-09-09 16:08:58,767 ERROR :: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1006) - goodbye
+2023-09-10 20:13:50,391 DEBUG :: Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2023-09-10 20:13:51,139 DEBUG :: https://testnet.binancefuture.com:443 "GET /fapi/v1/exchangeInfo HTTP/1.1" 200 None
+2023-09-10 20:13:51,372 DEBUG :: Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2023-09-10 20:13:52,093 DEBUG :: https://testnet.binancefuture.com:443 "GET /fapi/v1/account?timestamp=1694369631370&signature=de3e2dba193923c71cc76a28b9ead47d801e160e217ce5d82edfb62fc043b6b1 HTTP/1.1" 400 87
+2023-09-10 20:13:52,094 ERROR :: Error while making GET request to /fapi/v1/account: {'code': -5000, 'msg': 'GET /fapi/v1/account is retired, please use GET /fapi/v2/account'} (error code 400)
+2023-09-10 20:13:52,098 INFO :: Binance Futures Client successfully initialized
+2023-09-10 20:13:52,158 DEBUG :: Starting new HTTPS connection (1): testnet.bitmex.com:443
+2023-09-10 20:13:52,366 DEBUG :: https://testnet.bitmex.com:443 "GET /api/v1/instrument/active HTTP/1.1" 400 59
+2023-09-10 20:13:52,366 ERROR :: Error while making GET request to /api/v1/instrument/active: {'error': {'message': 'Missing API key.', 'name': 'HTTPError'}} (error code 400)
+2023-09-10 20:13:52,369 DEBUG :: Starting new HTTPS connection (1): testnet.bitmex.com:443
+2023-09-10 20:13:52,475 DEBUG :: https://testnet.bitmex.com:443 "GET /api/v1/user/margin?currency=all HTTP/1.1" 400 59
+2023-09-10 20:13:52,475 ERROR :: Error while making GET request to /api/v1/user/margin: {'error': {'message': 'Missing API key.', 'name': 'HTTPError'}} (error code 400)
+2023-09-10 20:13:52,476 INFO :: Bitmex Client successfully initialized
+2023-09-10 20:13:52,657 ERROR :: Binance connection error: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1002)
+2023-09-10 20:13:52,657 ERROR :: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1002) - goodbye
+2023-09-10 20:13:52,657 ERROR :: error from callback <bound method BinanceClient._on_close of <connectors.binance.BinanceClient object at 0x117988bd0>>: BinanceClient._on_close() takes 2 positional arguments but 4 were given
+2023-09-10 20:13:52,657 ERROR :: Binance connection error: BinanceClient._on_close() takes 2 positional arguments but 4 were given
+2023-09-10 20:13:52,685 ERROR :: Bitmex connection error: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1002)
+2023-09-10 20:13:52,685 ERROR :: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1002) - goodbye
+2023-09-10 20:13:52,685 ERROR :: error from callback <bound method BitmexClient._on_close of <connectors.bitmex.BitmexClient object at 0x1220b07d0>>: BitmexClient._on_close() takes 2 positional arguments but 4 were given
+2023-09-10 20:13:52,685 ERROR :: Bitmex connection error: BitmexClient._on_close() takes 2 positional arguments but 4 were given
+2023-09-10 20:13:54,726 ERROR :: Bitmex connection error: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1002)
+2023-09-10 20:13:54,727 ERROR :: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1002) - goodbye
+2023-09-10 20:13:55,230 ERROR :: Binance connection error: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1002)
+2023-09-10 20:13:55,231 ERROR :: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1002) - goodbye
+2023-09-10 20:13:56,732 ERROR :: Bitmex error in run_forever() method: socket is already opened
+2023-09-10 20:13:57,233 ERROR :: Binance error in run_forever() method: socket is already opened
+2023-09-10 21:29:19,667 DEBUG :: Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2023-09-10 21:29:20,662 DEBUG :: https://testnet.binancefuture.com:443 "GET /fapi/v1/exchangeInfo HTTP/1.1" 200 None
+2023-09-10 21:29:20,670 DEBUG :: Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2023-09-10 21:29:21,411 DEBUG :: https://testnet.binancefuture.com:443 "GET /fapi/v1/account?timestamp=1694374160668&signature=4b6fff3438dd18740e83beb45c471759e235481d6065a8adc9fbff5299f4948a HTTP/1.1" 400 87
+2023-09-10 21:29:21,412 ERROR :: Error while making GET request to /fapi/v1/account: {'code': -5000, 'msg': 'GET /fapi/v1/account is retired, please use GET /fapi/v2/account'} (error code 400)
+2023-09-10 21:29:21,415 INFO :: Binance Futures Client successfully initialized
+2023-09-10 21:29:21,429 DEBUG :: Starting new HTTPS connection (1): testnet.bitmex.com:443
+2023-09-10 21:29:21,607 DEBUG :: https://testnet.bitmex.com:443 "GET /api/v1/instrument/active HTTP/1.1" 200 None
+2023-09-10 21:29:21,622 DEBUG :: Starting new HTTPS connection (1): testnet.bitmex.com:443
+2023-09-10 21:29:21,759 DEBUG :: https://testnet.bitmex.com:443 "GET /api/v1/user/margin?currency=all HTTP/1.1" 200 None
+2023-09-10 21:29:21,763 INFO :: Bitmex Client successfully initialized
+2023-09-10 21:29:22,039 ERROR :: Binance connection error: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1002)
+2023-09-10 21:29:22,040 ERROR :: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1002) - goodbye
+2023-09-10 21:29:22,040 ERROR :: error from callback <bound method BinanceClient._on_close of <connectors.binance.BinanceClient object at 0x1213bce50>>: BinanceClient._on_close() takes 2 positional arguments but 4 were given
+2023-09-10 21:29:22,040 ERROR :: Binance connection error: BinanceClient._on_close() takes 2 positional arguments but 4 were given
+2023-09-10 21:29:22,070 ERROR :: Bitmex connection error: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1002)
+2023-09-10 21:29:22,070 ERROR :: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1002) - goodbye
+2023-09-10 21:29:22,070 ERROR :: error from callback <bound method BitmexClient._on_close of <connectors.bitmex.BitmexClient object at 0x1215982d0>>: BitmexClient._on_close() takes 2 positional arguments but 4 were given
+2023-09-10 21:29:22,070 ERROR :: Bitmex connection error: BitmexClient._on_close() takes 2 positional arguments but 4 were given
+2023-09-10 21:29:24,110 ERROR :: Bitmex connection error: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1002)
+2023-09-10 21:29:24,110 ERROR :: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1002) - goodbye
+2023-09-10 21:29:24,556 ERROR :: Binance connection error: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1002)
+2023-09-10 21:29:24,556 ERROR :: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1002) - goodbye
